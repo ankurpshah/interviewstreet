@@ -10,9 +10,6 @@ public class Median {
 	private static final String REMOVE = "r";
 	private List<Integer> list = new ArrayList<Integer>();
 
-	public Median() {
-	}
-
 	private void sortNumbers() {
 		Collections.sort(list);
 	}
